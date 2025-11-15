@@ -1,12 +1,73 @@
-# React + Vite
+# 🌍 Trip Planner AI — React + Firebase + Google APIs + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Trip Planner AI is a modern travel-planning web application built using React + Vite, Firebase, Google Places API, Google Gemini AI, and Unsplash.
+It allows users to:
 
-Currently, two official plugins are available:
+Create and manage trips
+Search destinations with Google Places Autocomplete
+Generate AI-powered travel recommendations
+Save trip details to Firestore
+View, update and delete trips
+Upload profile photos
+Authenticate via Email/Password or Google Login
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend
+React + Vite
+Tailwind CSS
+React Router
+Lucide Icons
+
+Backend
+Firebase Authentication
+Firestore Database
+Firebase Storage
+
+External APIs
+Google Places API
+Google Gemini AI API
+Unsplash API (for background images)
+
+🧭 Features
+
+👤 User Authentication
+Email/Password login
+Google Sign-in
+Full profile system:
+    Name
+    Email
+    Phone
+    Bio
+    Profile photo upload
+
+🗺️ Trip Management
+
+Create new trips
+Select destination with Google Places
+Pick start and end dates
+Upload a trip cover photo
+Save trip to Firestore
+View trip details
+Delete trips
+
+🤖 AI-powered Suggestions
+
+Using Google Gemini AI, app can generate:
+Itineraries
+Activity recommendations
+Trip names
+Travel descriptions
+
+📸 Beautiful Images
+Unsplash API automatically retrieves:
+Destination images
+Activity photos
+Hotel images
+
+🙌 Author
+
+Suventhini Sivalingam
+Undergraduate – BSc in Computer Engineering
+University of Sri Jayawardenapura
