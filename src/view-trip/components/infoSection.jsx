@@ -210,14 +210,14 @@ Happy travels! ✈️
           <div className="absolute right-0 top-full mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
             <button
               onClick={handleShare}
-              className="w-full text-left px-4 py-2 hover:bg-gray-100 rounded-t-lg flex items-center gap-2"
+              className=" !bg-blue-100 w-full text-left px-4 py-2 hover:bg-gray-100 rounded-t-lg flex items-center gap-4 !border-blue-300"
             >
               <RiShareForwardFill className="text-blue-900" />
               Share via...
             </button>
             <button
               onClick={handleAdvancedShare}
-              className="w-full text-left px-4 py-2 hover:bg-gray-100 rounded-b-lg flex items-center gap-2 border-t border-gray-100"
+              className="!bg-blue-100 w-full text-left px-4 py-2 hover:bg-gray-100 rounded-b-lg flex items-center gap-2 border-t !border-blue-300"
             >
               <span role="img" aria-label="Copy">📋</span>
               Copy trip details
